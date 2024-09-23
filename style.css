@@ -1,0 +1,63 @@
+/* /// COLORS /// */
+:root {
+    --primary: #172c66;
+    --secondary: #fef6e4;
+    --bg1: #fbdd74;
+    --bg2: #ff6e6c;
+}
+
+/* /// END COLORS /// */
+
+/* /// RESET /// */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* /// END RESET /// */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* background-image: linear-gradient(to bottom right, #fffe3b, #f59c20, #ef005e, #d400b0, #0800fa); */
+    background-image: linear-gradient(to bottom right, #fffe3b, #ef005e, #0800fa);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+main ul {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 15vh;
+    line-height: .825;
+    opacity: .8;
+    mix-blend-mode: overlay;
+    color: #fff;
+}
+
+main ul li::first-letter {
+    font-size: 20vh;
+    font-weight: 600;
+}
